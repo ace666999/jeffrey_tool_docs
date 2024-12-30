@@ -1,0 +1,20 @@
+# 忽略所有 .log 文件
+*.log
+
+# 忽略所有 .class 文件
+*.class
+
+# 忽略所有 .aux, .log, .out, .toc 等编译产生的临时文件
+*.[oa]
+
+# 忽略所有 .vscode 目录
+.vscode/
+
+# 忽略所有.idea目录
+.idea/
+
+# 忽略所有 node_modules 目录
+node_modules/
+
+# 忽略所有 .DS_Store 文件（macOS 系统的临时文件）
+.DS_Store
