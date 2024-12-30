@@ -1,10 +1,33 @@
 ---
 lang: zh-CN
-title: index标题
-description: index描述
+title: 指南
+description: 指南-描述
 ---
+## 依赖版本
+兼容所有 node 版本，推荐使用 pnpm 进行安装，也可直接使用 bun 工具进行快速安装。
 
-## 基础配置
+## 安装
+
+::: code-tabs
+
+@tab npm
+```
+npm install jeffrey_tool
+```
+
+@tab pnpm
+```
+pnpm install jeffrey_tool
+```
+
+@tab bun
+```
+bun install jeffrey_tool
+```
+
+:::
+
+
 
 这里是基础配置的内容...
 document/index

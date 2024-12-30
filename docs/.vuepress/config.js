@@ -11,7 +11,7 @@ export default defineUserConfig({
     ],
     title: 'jeffrey_tool',
 
-    description: 'My first VuePress Site',
+    description: '我写的第一个工具库',
 
     theme: defaultTheme({
         logo: 'https://vuejs.press/images/hero.png',
@@ -31,7 +31,7 @@ export default defineUserConfig({
                     text: '指南',
                     children: [
                         {
-                            text: '基础配置',
+                            text: '起步',
                             link: 'zn.md',
                         },
                         {

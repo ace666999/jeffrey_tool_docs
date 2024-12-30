@@ -1,4 +1,23 @@
-<template><div><h2 id="基础配置" tabindex="-1"><a class="header-anchor" href="#基础配置"><span>基础配置</span></a></h2>
+<template><div><h2 id="依赖版本" tabindex="-1"><a class="header-anchor" href="#依赖版本"><span>依赖版本</span></a></h2>
+<p>兼容所有 node 版本，推荐使用 pnpm 进行安装，也可直接使用 bun 工具进行快速安装。</p>
+<h2 id="安装" tabindex="-1"><a class="header-anchor" href="#安装"><span>安装</span></a></h2>
+<CodeTabs id="9" :data='[{"id":"npm"},{"id":"pnpm"},{"id":"bun"}]'>
+<template #title0="{ value, isActive }">npm</template>
+<template #title1="{ value, isActive }">pnpm</template>
+<template #title2="{ value, isActive }">bun</template>
+<template #tab0="{ value, isActive }">
+<div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre v-pre><code><span class="line">npm install jeffrey_tool</span>
+<span class="line"></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></template>
+<template #tab1="{ value, isActive }">
+<div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre v-pre><code><span class="line">pnpm install jeffrey_tool</span>
+<span class="line"></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></template>
+<template #tab2="{ value, isActive }">
+<div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre v-pre><code><span class="line">bun install jeffrey_tool</span>
+<span class="line"></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></template>
+</CodeTabs>
 <p>这里是基础配置的内容...
 document/index</p>
 <table>
