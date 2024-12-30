@@ -24,8 +24,17 @@ pnpm install jeffrey_tool
 ```
 bun install jeffrey_tool
 ```
-
 :::
+
+## 引入使用
+
+````javascript
+import { mapTree } from "jeffrey_tool"
+````
+
+
+
+
 
 
 

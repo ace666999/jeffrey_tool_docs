@@ -7,7 +7,7 @@ export default defineUserConfig({
     // dest: '/',
 
     head: [
-        ['link', { rel: 'stylesheet', href: '/styles/index.scss' }]
+        ['link', {rel: 'stylesheet', href: '/styles/index.scss'}]
     ],
     title: 'jeffrey_tool',
 
@@ -22,7 +22,13 @@ export default defineUserConfig({
                     {text: '起步', link: 'start', activeMatch: '/start'},
                 ]
             },
-            {text: '测试', link: '/test/test1'},
+            {
+                text: '模块', prefix: '/module/',
+                children: [
+                    {text: '树结构 - Tree', link: 'tree', activeMatch: '/tree'},
+                    {text: '数组 - Array', link: 'array', activeMatch: '/array'},
+                ]
+            },
             {text: '关于', link: '/get-started'},
         ],
         sidebar: {
@@ -35,8 +41,23 @@ export default defineUserConfig({
                             link: 'zn.md',
                         },
                         {
-                            text: '起步',
+                            text: '开始',
                             link: 'start.md'
+                        },
+                    ]
+                }
+            ],
+            '/module/': [
+                {
+                    text: '模块',
+                    children: [
+                        {
+                            text: 'Tree - 树结构',
+                            link: 'tree.md',
+                        },
+                        {
+                            text: 'Array - 数组',
+                            link: 'array.md',
                         },
                     ]
                 }

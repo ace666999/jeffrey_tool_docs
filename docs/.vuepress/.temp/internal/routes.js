@@ -5,9 +5,8 @@ export const routes = Object.fromEntries([
   ["/get-started.html", { loader: () => import(/* webpackChunkName: "get-started.html" */"/Users/fujuejie/Desktop/MY_ITEM/jeffrey_tool_docs/docs/.vuepress/.temp/pages/get-started.html.js"), meta: {"title":"Get Started"} }],
   ["/document/start.html", { loader: () => import(/* webpackChunkName: "document_start.html" */"/Users/fujuejie/Desktop/MY_ITEM/jeffrey_tool_docs/docs/.vuepress/.temp/pages/document/start.html.js"), meta: {"title":"start标题"} }],
   ["/document/zn.html", { loader: () => import(/* webpackChunkName: "document_zn.html" */"/Users/fujuejie/Desktop/MY_ITEM/jeffrey_tool_docs/docs/.vuepress/.temp/pages/document/zn.html.js"), meta: {"title":"指南"} }],
-  ["/test/test1.html", { loader: () => import(/* webpackChunkName: "test_test1.html" */"/Users/fujuejie/Desktop/MY_ITEM/jeffrey_tool_docs/docs/.vuepress/.temp/pages/test/test1.html.js"), meta: {"title":""} }],
-  ["/test/test2.html", { loader: () => import(/* webpackChunkName: "test_test2.html" */"/Users/fujuejie/Desktop/MY_ITEM/jeffrey_tool_docs/docs/.vuepress/.temp/pages/test/test2.html.js"), meta: {"title":""} }],
-  ["/test/test3.html", { loader: () => import(/* webpackChunkName: "test_test3.html" */"/Users/fujuejie/Desktop/MY_ITEM/jeffrey_tool_docs/docs/.vuepress/.temp/pages/test/test3.html.js"), meta: {"title":""} }],
+  ["/module/array.html", { loader: () => import(/* webpackChunkName: "module_array.html" */"/Users/fujuejie/Desktop/MY_ITEM/jeffrey_tool_docs/docs/.vuepress/.temp/pages/module/array.html.js"), meta: {"title":""} }],
+  ["/module/tree.html", { loader: () => import(/* webpackChunkName: "module_tree.html" */"/Users/fujuejie/Desktop/MY_ITEM/jeffrey_tool_docs/docs/.vuepress/.temp/pages/module/tree.html.js"), meta: {"title":""} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/Users/fujuejie/Desktop/MY_ITEM/jeffrey_tool_docs/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
 

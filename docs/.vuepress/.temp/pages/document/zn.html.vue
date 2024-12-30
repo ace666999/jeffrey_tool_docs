@@ -18,7 +18,10 @@
 <span class="line"></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></template>
 </CodeTabs>
-<p>这里是基础配置的内容...
+<h2 id="引入使用" tabindex="-1"><a class="header-anchor" href="#引入使用"><span>引入使用</span></a></h2>
+<div class="language-javascript line-numbers-mode" data-highlighter="prismjs" data-ext="js" data-title="js"><pre v-pre><code><span class="line"><span class="token keyword">import</span> <span class="token punctuation">{</span> mapTree <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"jeffrey_tool"</span></span>
+<span class="line"></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>这里是基础配置的内容...
 document/index</p>
 <table>
 <thead>
